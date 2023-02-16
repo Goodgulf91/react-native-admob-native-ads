@@ -84,8 +84,6 @@ const styles = StyleSheet.create({
 });
 
 const ButtonView =
-  Platform.OS === "android"
-    ? requireNativeComponent("RNAdmobButton")
-    : TouchableOpacity;
+TouchableOpacity;
 
 export default CallToActionView;
